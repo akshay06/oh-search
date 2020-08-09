@@ -1,0 +1,59 @@
+:root {
+  --h1-font-size: 36px;
+  --h2-font-size: 28px;
+  --h3-font-size: 24px;
+  --h4-font-size: 20px;
+  --default-font-size: 16px;
+  --medium-font-size: 14px;
+  --small-font-size: 12px;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --regular-weight: 400;
+  --semi-bold: 500;
+  --bold: 600;
+}
+:global {
+  .h1FontSize{
+    @media (--phone) {
+      font-size: var(--h2-font-size);
+    }
+    @media (--small-desktop) {
+      font-size: var(--h2-font-size);
+    }
+    @media (--medium-desktop) {
+      font-size: var(--h2-font-size);
+    }
+    @media (--large-desktop) {
+      font-size: var(--h1-font-size);
+    }
+  }
+  .h2FontSize{
+    @media (--phone) {
+      font-size: var(--h4-font-size);
+    }
+    @media (--small-desktop) {
+      font-size: var(--h3-font-size);
+    }
+    @media (--medium-desktop) {
+      font-size: var(--h3-font-size);
+    }
+    @media (--large-desktop) {
+      font-size: var(--h2-font-size);
+    }
+  }
+  .h3FontSize{
+    font-size: 24px;
+  }
+  .h4FontSize{
+    font-size: 20px;
+  }
+  .defaultFontSize{
+    font-size: 16px;
+  }
+  .mediumFontSize{
+    font-size: 14px;
+  }
+  .smallFontSize{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,6 @@
+/* All pther scss variables goes here */
+:root {
+  --box-shadow-default: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  --border-radius: 8px;
+  --modal-z-index: 12050;
+}

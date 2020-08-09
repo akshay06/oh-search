@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false,
+      "targets": {
+        "browsers": "last 3 versions, last 10 Chrome versions",
+      }
+      }],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "lodash",
+    "react-hot-loader/babel",
+    "@babel/plugin-proposal-class-properties"
+  ]
+}

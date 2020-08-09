@@ -1,0 +1,27 @@
+:root {
+  --black: #000;
+  --white: #fff;
+
+  --text-dark: #777777;
+  --text-heading: #444B58;
+  --text-default: #929292;
+
+  --background-dark: #D3D3D3;
+  --background-default: #EEEEEE;
+  --background-light: #F5F5F5;
+
+  --yellow: #FFD269;
+  --yellow-light: rgba(255, 210, 105, 0.4);
+
+  --green: #2B8946;
+
+  --blue: #1E50C4;
+  --blue-light: #597bc4;
+  --blue-dark: #2A3D64;
+  --blue-bg: #f3f6fc;
+
+  --purple: #652AE0;
+
+  --red: #C94745;
+  --red-light: rgba(201, 71, 69, 0.1);
+}
